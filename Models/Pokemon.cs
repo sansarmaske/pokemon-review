@@ -6,8 +6,8 @@
         public string Name { get; set; }
         public string BirthDate { get; set; }
         public ICollection<Review> Reviews { get; }
-        public ICollection<PokemonOwner> PokemonOwner { get; set; }
-        public ICollection<PokemonCategory> PokemonCategory { get; set; }
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
 
          
     }
